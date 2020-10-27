@@ -1,17 +1,3 @@
-import { enableProdMode } from '@angular/core'
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic'
-import * as $ from 'jquery'
-
-import { AppModule } from './app/app.module'
-import { environment } from './environments/environment'
-
-if (environment.production) {
-  enableProdMode()
-}
-
-platformBrowserDynamic()
-  .bootstrapModule(AppModule)
-  .catch((err) => console.error(err))
 ;(function () {
   'use strict'
 
@@ -140,40 +126,43 @@ platformBrowserDynamic()
     }
   }
 
-  // var typed = function () {
-  //     //------- Typed --------//
-  //     var typed = new Typed('#typed-slide-1', {
-  //       stringsElement: '#typed-strings-slide-1',
-  //       backSpeed: 40,
-  //       typeSpeed: 40,
-  //       loop: true
-  //     });
+  var typed = function () {
+    //------- Typed --------//
+    var typed = new Typed('#typed-slide-1', {
+      stringsElement: '#typed-strings-slide-1',
+      backSpeed: 40,
+      typeSpeed: 40,
+      loop: true,
+    })
 
-  //     //------- Typed --------//
-  //     var typed = new Typed('#typed-slide-2', {
-  //       stringsElement: '#typed-strings-slide-2',
-  //       backSpeed: 40,
-  //       typeSpeed: 40,
-  //       loop: true
-  //     });
-  //   }
+    //------- Typed --------//
+    var typed = new Typed('#typed-slide-2', {
+      stringsElement: '#typed-strings-slide-2',
+      backSpeed: 40,
+      typeSpeed: 40,
+      loop: true,
+    })
+  }
 
-  // var back_to_top = function () {
-  // $(window).on('scroll', function () {
-  //     if ($(this).scrollTop() > 50) {
-  //       $('#back-to-top').fadeIn();
-  //     } else {
-  //       $('#back-to-top').fadeOut();
-  //     }
-  //   });
-  //   // scroll body to 0px on click
-  //   $('#back-to-top').on('click', function () {
-  //     $('body,html').animate({
-  //       scrollTop: 0
-  //     }, 400);
-  //     return false;
-  //   });
-  // }
+  var back_to_top = function () {
+    $(window).on('scroll', function () {
+      if ($(this).scrollTop() > 50) {
+        $('#back-to-top').fadeIn()
+      } else {
+        $('#back-to-top').fadeOut()
+      }
+    })
+    // scroll body to 0px on click
+    $('#back-to-top').on('click', function () {
+      $('body,html').animate(
+        {
+          scrollTop: 0,
+        },
+        400
+      )
+      return false
+    })
+  }
 
   var header_sticky = function () {
     $(window).on('scroll', function () {
@@ -193,15 +182,15 @@ platformBrowserDynamic()
     sliderMain()
     contentWayPoint()
     counterWayPoint()
-    // typed();
-    // back_to_top();
+    typed()
+    back_to_top()
     header_sticky()
   })
 })()
 
 /*------------------
-    Isotope Filter
-  --------------------*/
+	Isotope Filter
+--------------------*/
 var $container = $('.work-gallery')
 $container.imagesLoaded().progress(function () {
   $container.isotope()
