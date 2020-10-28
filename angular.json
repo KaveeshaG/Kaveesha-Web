@@ -31,6 +31,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
               "src/assets/devcard/js/custom.js",
               "src/assets/devcard/js/typed.min.js",
               "src/assets/devcard/js/imagesloaded.pkgd.min.js",
@@ -104,7 +105,7 @@
               "src/assets/devcard/js/custom.js",
               "src/assets/devcard/js/typed.min.js",
               "src/assets/devcard/js/imagesloaded.pkgd.min.js",
-              "src/assets/devcard/js/jquery.flexslider-min.js",
+              "./src/assets/devcard/js/jquery.flexslider-min.js",
               "src/assets/devcard/js/jquery.waypoints.min.js",
               "src/assets/devcard/js/jquery.countTo.js",
               "src/assets/devcard/js/bootstrap.min.js",

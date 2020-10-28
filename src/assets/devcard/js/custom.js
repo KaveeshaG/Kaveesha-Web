@@ -191,19 +191,19 @@
 /*------------------
 	Isotope Filter
 --------------------*/
-var $container = $('.work-gallery')
-$container.imagesLoaded().progress(function () {
-  $container.isotope()
-})
+// var $container = $('.work-gallery')
+// $container.imagesLoaded().progress(function () {
+//   $container.isotope()
+// })
 
-$('.work-filter li').on('click', function () {
-  $('.work-filter li').removeClass('active')
-  $(this).addClass('active')
-  var selector = $(this).attr('data-filter')
-  $container.imagesLoaded().progress(function () {
-    $container.isotope({
-      filter: selector,
-    })
-  })
-  return false
-})
+// $('.work-filter li').on('click', function () {
+//   $('.work-filter li').removeClass('active')
+//   $(this).addClass('active')
+//   var selector = $(this).attr('data-filter')
+//   $container.imagesLoaded().progress(function () {
+//     $container.isotope({
+//       filter: selector,
+//     })
+//   })
+//   return false
+// })

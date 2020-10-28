@@ -25,6 +25,7 @@
     "jquery": "^3.5.1",
     "jquery-count-to": "^1.2.1",
     "jquery-countto": "^1.2.0",
+    "jquery.easing": "^1.4.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
