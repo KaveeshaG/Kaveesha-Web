@@ -38,7 +38,7 @@ body {
   background-color: #0d0d0d;
   font-weight: 400;
   overflow-x: hidden;
-  color: #fff;
+  color: rgb(36, 36, 36);
 }
 
 @media screen and (max-width: 992px) {
@@ -68,13 +68,13 @@ body.menu-show {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #e1b783;
+  background: #838ce1;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #e1b783;
+  background: #838ce1;
 }
 
 @media screen and (max-width: 992px) {
@@ -93,7 +93,7 @@ a {
 }
 
 a:hover {
-  color: #e1b783;
+  color: #838ce1;
 }
 
 a:focus,
@@ -202,8 +202,8 @@ hr {
   font-family: 'Quicksand', Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #e1b783;
-  border: 2px solid #e1b783;
+  color: #838ce1;
+  border: 2px solid #838ce1;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -230,9 +230,9 @@ hr {
 }
 
 .btn-primary {
-  background: #e1b783;
+  background: #838ce1;
   color: #000;
-  border: 2px solid #e1b783;
+  border: 2px solid #838ce1;
 }
 
 .btn-primary:hover,
@@ -244,14 +244,14 @@ hr {
 
 .btn-primary.btn-outline {
   background: transparent;
-  color: #e1b783;
-  border: 2px solid #e1b783;
+  color: #838ce1;
+  border: 2px solid #838ce1;
 }
 
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-  background: #e1b783;
+  background: #838ce1;
   color: #fff !important;
 }
 
@@ -385,7 +385,7 @@ hr {
   position: absolute;
   width: 2px;
   height: 80px;
-  background: #e1b783;
+  background: #838ce1;
   z-index: 2;
   display: block;
   overflow: hidden;
@@ -398,7 +398,7 @@ hr {
 }
 
 .social-links li a:hover {
-  color: #e1b783 !important;
+  color: #838ce1 !important;
 }
 
 /* background sections */
@@ -436,7 +436,7 @@ hr {
   bottom: 101px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: 3px solid #e1b783;
+  border: 3px solid #838ce1;
 }
 
 @media (max-width: 991px) {
@@ -449,7 +449,7 @@ hr {
     bottom: 137px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 3px solid #e1b783;
+    border: 3px solid #838ce1;
   }
 }
 
@@ -461,7 +461,7 @@ hr {
   height: 1px;
   left: calc(50% - 45px);
   bottom: 107px;
-  background-color: #e1b783;
+  background-color: #838ce1;
 }
 
 @media (max-width: 991px) {
@@ -473,7 +473,7 @@ hr {
     height: 1px;
     left: calc(50% - 45px);
     bottom: 143px;
-    background-color: #e1b783;
+    background-color: #838ce1;
   }
 }
 
@@ -485,7 +485,7 @@ hr {
   height: 1px;
   left: calc(50% + 15px);
   bottom: 107px;
-  background-color: #e1b783;
+  background-color: #838ce1;
 }
 
 @media (max-width: 991px) {
@@ -497,7 +497,7 @@ hr {
     height: 1px;
     left: calc(50% + 15px);
     bottom: 143px;
-    background-color: #e1b783;
+    background-color: #838ce1;
   }
 }
 
@@ -604,7 +604,7 @@ hr {
   bottom: -115px;
   left: -30%;
   width: 450px;
-  border: 1px solid #e1b783;
+  border: 1px solid #838ce1;
 }
 
 @media screen and (max-width: 992px) {
@@ -672,7 +672,7 @@ hr {
   line-height: 20px;
   color: transparent;
   text-align: center;
-  background-color: #e1b783;
+  background-color: #838ce1;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -746,7 +746,7 @@ hr {
   line-height: 1.42857;
   background-color: transparent;
   border-radius: 0px;
-  border-bottom: 1px solid #e1b783;
+  border-bottom: 1px solid #838ce1;
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
@@ -853,10 +853,10 @@ hr {
   position: fixed;
   bottom: 25px;
   right: 25px;
-  color: #e1b783;
+  color: #838ce1;
   background: transparent;
   padding: 5px 10px;
-  border: 1px solid #e1b783;
+  border: 1px solid #838ce1;
 }
 
 #back-to-top:hover {
@@ -864,9 +864,9 @@ hr {
   bottom: 25px;
   right: 25px;
   color: #fff;
-  background: #e1b783;
+  background: #838ce1;
   padding: 5px 10px;
-  border: 1px solid #e1b783;
+  border: 1px solid #838ce1;
 }
 
 /*===========================
@@ -1011,7 +1011,7 @@ hr {
 #main-nav ul li a:focus {
   color: white;
   outline: none;
-  color: #e1b783;
+  color: #838ce1;
   text-decoration: none;
 }
 
@@ -1028,7 +1028,7 @@ hr {
 
 #main-nav .social-icon a i:hover {
   /* color: rgba(255, 255, 255, 0.5); */
-  color: #e1b783;
+  color: #838ce1;
 }
 
 .nav-toggle {
@@ -1064,11 +1064,11 @@ hr {
   *display: inline;
   width: 30px;
   height: 2px;
-  color: #e1b783;
+  color: #838ce1;
   font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #e1b783;
+  background: #838ce1;
   transition: all 0.2s ease-out;
 }
 
@@ -1082,7 +1082,7 @@ hr {
   content: '';
   width: 30px;
   height: 2px;
-  background: #e1b783;
+  background: #838ce1;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1092,16 +1092,16 @@ hr {
 
 .menu-show .nav-toggle i::before,
 .menu-show .nav-toggle i::after {
-  background: #e1b783;
+  background: #838ce1;
 }
 
 @media screen and (max-width: 992px) {
   .nav-toggle i {
-    background: #e1b783;
+    background: #838ce1;
   }
   .nav-toggle i::before,
   .nav-toggle i::after {
-    background: #e1b783;
+    background: #838ce1;
   }
 }
 
@@ -1231,7 +1231,7 @@ header .navbar-brand .logo:focus {
 
 header .navbar-brand .logo span {
   font-size: 24px;
-  color: #e1b783;
+  color: #838ce1;
 }
 
 header .navbar-brand .social-icon {
@@ -1316,7 +1316,7 @@ header .navbar-brand .social-icon a {
 }
 
 #banner .flexslider .slides .desc h3 {
-  color: #e1b783;
+  color: #838ce1;
 }
 
 #banner .flexslider .flex-control-nav {
@@ -1344,7 +1344,7 @@ header .navbar-brand .social-icon a {
 
 #banner .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
-  background: #e1b783;
+  background: #838ce1;
 }
 
 #banner .flexslider .flex-direction-nav {
@@ -1432,7 +1432,7 @@ header .navbar-brand .social-icon a {
 
 #banner .flexslider .flex-control-nav li a {
   background: transparent;
-  border: 1px solid #e1b783;
+  border: 1px solid #838ce1;
   border-radius: 50px;
   box-shadow: none;
   width: 12px;
@@ -1450,7 +1450,7 @@ header .navbar-brand .social-icon a {
   bottom: -10px;
   left: calc(50% - 13px);
   z-index: 2;
-  border-top: 10px #e1b783 solid;
+  border-top: 10px #838ce1 solid;
   border-left: 10px transparent solid;
   border-right: 10px transparent solid;
 }

@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/common/navbar/navbar.component'
 import { FooterComponent } from './components/common/footer/footer.component'
 import { HomeComponent } from './pages/home/home.component'
 import { HeaderComponent } from './components/header/header.component'
+import { AboutComponent } from './components/about/about.component'
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HeaderComponent } from './components/header/header.component'
     FooterComponent,
     HomeComponent,
     HeaderComponent,
+    AboutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

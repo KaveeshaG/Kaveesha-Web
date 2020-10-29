@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit, SkipSelf } from '@angular/core'
+import { JitCompilerFactory } from '@angular/platform-browser-dynamic'
 import * as $ from 'jquery'
+import { forkJoin } from 'rxjs'
 
 @Component({
   selector: 'app-header',
