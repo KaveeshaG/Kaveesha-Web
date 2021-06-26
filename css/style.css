@@ -1880,7 +1880,6 @@ header .navbar-brand .social-icon a {
 /*===========================
         10.COUNTERS
 =============================*/
-
 .counters {
   padding: 3em 0;
   background: #000;
@@ -2292,7 +2291,8 @@ input[type="text"] {
 }
 
 #footer .copy-right {
-  padding-top: 4em;
+  margin-top: -10%;
+  padding-top: 0em;
 }
 
 #footer a {
