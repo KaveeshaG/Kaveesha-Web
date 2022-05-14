@@ -1758,6 +1758,9 @@ header .navbar-brand .social-icon a {
   transition: all 4s;
 }
 
+.table {
+  width: 80rem;
+}
 
 /*===========================
         9.SERVICES
